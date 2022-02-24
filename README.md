@@ -6,7 +6,9 @@ With this script You can download a maxinum of 50 video of any youtube playlist!
 ## Usage and Configuration
 First of all You will need to install [Node.js](https://nodejs.org/it/download/), and after that open the `cmd` in the folder and type `npm install` to install all the dependencies.
 
-Now You have to set the **Youtube API key**, the **playlist URL** and the download directory (`./videos` by default) in the **`config.json`** file.
+Now you have to create copy of `.env.example` file and rename to `.env` 
+
+Lastly You have to set the **Youtube API key**, the **playlist URL** and the download directory (`./videos` by default) in the **`.env`** file.
 
 ### 1. Get Youtube API Key
 You can get your own Youtube API key by following [this tutorial](https://www.youtube.com/watch?v=VqML5F8hcRQ&ab_channel=YouTubeWordPressPlugin-Gallery%2CLivestreametc).
