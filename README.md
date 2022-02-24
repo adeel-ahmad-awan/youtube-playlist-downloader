@@ -12,9 +12,9 @@ Lastly You have to set the **Youtube API key**, the **playlist URL** and the dow
 
 ### 1. Get Youtube API Key
 You can get your own Youtube API key by following [this tutorial](https://www.youtube.com/watch?v=VqML5F8hcRQ&ab_channel=YouTubeWordPressPlugin-Gallery%2CLivestreametc).
-Once copied it, past the key in the `config.json` file like this:
+Once copied it, past the key in the `.env` file like this:
 ```json
-"apiKey": "Youtube API Key Here",
+apiKey=Youtube API Key Here
 ```
 Then save the file.
 ### 2. Get the Playlist URL
@@ -23,14 +23,14 @@ You will get something like this:
 ```
 https://www.youtube.com/playlist?list=PLMC9KNkIncKseYxDN2niH6glGRWKsLtde
 ```
-Copy and paste it in the `config.json` file like this:
+Copy and paste it in the `.env` file like this:
 ```json
-"playlistURL": "Playlist URL Here",
+playlistURL=Playlist URL Here
 ```
 ### 3. Change the Download Directory
-If You want, You can change the download directory changing the `"downloadDir"` value in `config.json` like this:
+If You want, You can change the download directory changing the `"downloadDir"` value in `.env` like this:
 ```json
-"downloadDir": "/path/to/dir"
+downloadDir=./videos/
 ```
 ### 4. Run the Script
 To run the script open the `cmd` in the directory and digit `node .`, then press `ENTER`.
